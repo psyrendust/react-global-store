@@ -1,0 +1,25 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.row {
+  display: flex;
+}
+
+.col {
+  flex: 50%;
+}
+.showValues {
+  width: 100%;
+  padding: 8px;
+  text-align: left;
+}
+.showValues > pre {
+  border: 1px solid grey;
+  padding: 8px;
+}
